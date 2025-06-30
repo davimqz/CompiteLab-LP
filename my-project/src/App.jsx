@@ -4,6 +4,7 @@ import FeatureSection from "./components/FeatureSection";
 import Workflow from "./components/Workflow";
 import { PrinterCheck } from "lucide-react";
 import Pricing from "./components/Pricing";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <FeatureSection></FeatureSection>
         <Workflow></Workflow>
         <Pricing></Pricing>
+        <Testimonials></Testimonials>
       </div>
     </>
     
