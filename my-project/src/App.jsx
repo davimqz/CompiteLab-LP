@@ -2,6 +2,8 @@ import NavBar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
 import FeatureSection from "./components/FeatureSection";
 import Workflow from "./components/Workflow";
+import { PrinterCheck } from "lucide-react";
+import Pricing from "./components/Pricing";
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
         <HeroSection></HeroSection>
         <FeatureSection></FeatureSection>
         <Workflow></Workflow>
+        <Pricing></Pricing>
       </div>
     </>
     
