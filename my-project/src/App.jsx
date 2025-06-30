@@ -2,9 +2,9 @@ import NavBar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
 import FeatureSection from "./components/FeatureSection";
 import Workflow from "./components/Workflow";
-import { PrinterCheck } from "lucide-react";
 import Pricing from "./components/Pricing";
 import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
         <Workflow></Workflow>
         <Pricing></Pricing>
         <Testimonials></Testimonials>
+        <Footer></Footer>
       </div>
     </>
     
